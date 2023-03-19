@@ -1,0 +1,14 @@
+<div
+  class="task"
+  [ngClass]="{ 'border-green': task!.completed }"
+  (click)="toggleCompleted(task!)"
+>
+  <app-button color="white" bg="blue" name="Edit"></app-button>
+  <span>{{ task!.label }}</span>
+  <app-button
+    color="white"
+    bg="red"
+    name="Del"
+    (click)="deleteTask(task!)"
+  ></app-button>
+</div>

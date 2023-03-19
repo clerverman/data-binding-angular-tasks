@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="form-task">
+    <label for="label">Label </label>
+    <input
+      type="text"
+      id="label"
+      class="label-input"
+      [(ngModel)]="newTask.label"
+      (keyup)="displayAddTask()"
+    />
+    <div class="completed-checkbox">
+      <input type="checkbox" [(ngModel)]="newTask.completed" /> Completed
+    </div>
+    <div class="btn-container" *ngIf="isEmpty">
+      <button class="btn add" (click)="addNewTask()">Add New Task</button>
+      <button class="btn update">Update Task</button>
+    </div>
+  </div>
+</div>

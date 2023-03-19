@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "label": "Learn JS",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "label": "Learn Java",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "label": "Learn RxJS",
+      "completed": false
+    },
+    {
+      "label": "learn Liferay",
+      "completed": true,
+      "id": 4
+    },
+    {
+      "label": "learn x",
+      "completed": false,
+      "id": 5
+    }
+  ]
+}

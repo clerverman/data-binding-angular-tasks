@@ -1,0 +1,33 @@
+.navbar {
+  width: 100%;
+  background-color: rgb(189, 53, 11);
+  padding: 20px 60px;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-nav > .title-nav {
+  font-weight: 800;
+  font-size: 25px;
+  color : white ;
+  text-shadow: 4px 2px 1px black;
+}
+
+.container-nav > .links-nav {
+  display: flex;
+}
+
+.links-nav > .link-nav {
+  margin : 0px 5px ;
+  text-decoration: none;
+  color : white ;
+  font-weight: 400;
+}
+
+.links-nav > .link-nav:hover {
+  color : black;
+}

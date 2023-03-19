@@ -1,0 +1,6 @@
+<app-form-task (task)="getNewTask($event)"></app-form-task>
+<div class="list-tasks">
+  <div *ngFor="let task of tasks">
+    <app-task [task]="task" (tastDeleted)="getTaskDeleted($event)"></app-task>
+  </div>
+</div>

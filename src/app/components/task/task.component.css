@@ -1,0 +1,16 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: rgb(173, 172, 172);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.border-green {
+  border-left: green 5px solid;
+}

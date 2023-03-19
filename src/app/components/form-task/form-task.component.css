@@ -1,0 +1,49 @@
+.container , .form-task {
+  display: flex;
+  justify-content: center;
+}
+
+.form-task {
+  width: 40%;
+  padding: 10px;
+}
+.form-task {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-task > input{
+  border: none;
+  outline: green 2px solid;
+  height: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Arial black", Helvetica, sans-serif;
+}
+.completed-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-container {
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 0px;
+  cursor: pointer;
+  color: white;
+}
+
+.add {
+  background-color: gray;
+}
+
+.update {
+  background-color: blue;
+  /* margin-top: 10px; */
+}
